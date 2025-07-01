@@ -1,0 +1,20 @@
+[project]
+title = "Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-172863"
+entrypoint = "hello.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#E50914"
+
+[[sources]]
+name = "netflix"
+path = "data/netflix_titles.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
